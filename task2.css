@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(29, 97, 223);
+    color: white;
+ 
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: space-around;
+    background-color: rgb(167, 40, 40);
+}
+
+nav li {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(70, 51, 167);
+    font-size: 1.05rem;
+
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px;
+    font-size: 3rem;
+}
+
+.firstsection div {
+    width: 40%;
+}
+
+.leftsection {
+    font-size: 2rem;
+}
+
+.rightsection img {
+    width: 80%;
+}
+
+.secondsection {
+    max-width: 60vw;
+    align-content: center;
+    height: 70vh;
+}
+
+main hr {
+    border: 0;
+    background: #9d2389;
+    height: 2.3px;
+    margin: 10px 14px;
+}
+
+.secondsection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 146px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 80px;
+    width: 200px;
+    font-size: 20px;
+    color: aquamarine;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 60px;
+    width: 100px;
+    font-size: 14px;
+}
+
+footer {
+    background-color: rgb(146, 146, 162);
+    height: 228px;
+}
+
+.footer {
+    margin-top: 15px;
+    margin-left: 23px;
+    color: rgb(11, 3, 75);
+    font-size: 1.5rem;
+
+}
+
+.footer ul {
+    list-style: circle;
+
+}
+
+
+.thirdsection {
+    height: 9vw;
+
+}
+
+.thirdsection span {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(221, 52, 52);
+    font-size: 2.1rem;
+
+}
+
+.thirdsection div {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.text-gray {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(233, 30, 30);
+    font-size: 2.1rem;
+
+}
